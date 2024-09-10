@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="muqeet.jpg" class="class" alt="">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home" class="jumbotron text-center  text-white">
+        <h1>Welcome to  my <br> Portfolio </h1>
+       <button type="button" class="btn-primary ">Open Githuub</button>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>About Me</h2>
+                <p>Here’s a bit about my journey in web development...</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="muqeet.jpg" alt="Profile Picture" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container my-5">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                   <a href="https://muqeet-developer.github.io/website/main.html?username=rahilashahzad.7%40gmail.cim&password=rahilasharafat"> <img src="/img/Simple Website - Google Chrome 10_09_2024 10_07_17 pm.png" class="card-img-top" alt="Project 1"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">I make a website not e-comerce website i make this website by using html css js</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                 <a href="https://muqeet-developer.github.io/HM-store/"> <img src="/img/land page.png" class="card-img-top" alt="Project 2"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Description of Project 2...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                  <a href="https://amanda369.hocoos.com/?_gl=1*14twjnj*_gcl_au*MjA5OTM1MjU1Ni4xNzI0NjY4NTQ5LjE1NjU4OTk0NzAuMTcyNDY3NjM1MC4xNzI0Njc2MzUw">  <img src="/img/Muqeet-developer_HM-website - Google Chrome 10_09_2024 10_28_54 pm.png" class="card-img-top" alt="Project 3"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Description of Project 3...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contact</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
